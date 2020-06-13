@@ -1,4 +1,4 @@
 steps:
 - name: 'gcr.io/cloud-builders/docker'
-  args: [ 'build', '-t', 'gcr.io/$PROJECT_ID/node_helloworld', '.' ]
-images: ['gcr.io/$PROJECT_ID/node_helloworld']
+  args: [ 'build', '-t', 'gcr.io/$PROJECT_ID/node_helloworldapp', '.' ]
+images: ['gcr.io/$PROJECT_ID/node_helloworldapp']
